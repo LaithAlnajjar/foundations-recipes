@@ -31,3 +31,15 @@ h3 {
     background: green;
     color: white;
 }
+.description {
+    background-color: black;
+    color: white;
+}
+.ingredients {
+    background-color: white;
+    color: black;
+}
+.steps {
+    background: green;
+    color: white;
+}
