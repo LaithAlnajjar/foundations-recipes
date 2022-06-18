@@ -24,7 +24,6 @@ header {
 
 .extra {
     margin-left: auto;
-    margin-right: 16px;
     text-decoration: underline;
     color: #ffffff;
     font-size: 16px;
@@ -34,6 +33,7 @@ header {
     text-decoration: underline;
     color: #ffffff;
     font-size: 16px;
+    margin-right: 16px;
 }
 
 .amman {
@@ -43,6 +43,9 @@ header {
 
 .hero {
     position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #e27d60;
     
 }
 
@@ -70,4 +73,66 @@ header {
     font-size: 16px;
     font-weight: bold;
     color: rgb(255, 255, 255);
+}
+
+.recipe-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #e27d60;
+    margin: 0;
+    padding-bottom: 64px;
+}
+
+.title {
+    display: flex;
+    font-size: 32px;
+    text-align: center;
+    margin: 64px;
+    color: white;
+    font-weight: bold;
+}
+
+.title:before, .title:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  .title:before {
+    margin-right: 10px
+  }
+  .title:after {
+    margin-left: 10px
+  }
+
+.recipes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.dish {
+    width: 320px;
+    height: 320px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.dish {
+    border: 4px solid #41b3a3
+}
+
+.recipes a {
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
