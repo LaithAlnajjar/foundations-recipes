@@ -136,3 +136,12 @@ header {
     font-size: 20px;
     font-weight: bold;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: #c38d9e;
+    color: white;
+}
