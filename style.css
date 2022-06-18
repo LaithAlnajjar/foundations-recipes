@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: quicksand, roboto, sans-serif;
 }
 
 header {
@@ -33,4 +34,40 @@ header {
     text-decoration: underline;
     color: #ffffff;
     font-size: 16px;
+}
+
+.amman {
+    width: 100%;
+    height: auto;
+}
+
+.hero {
+    position: relative;
+    
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-right: -100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 4px double white;
+    padding: 32px;
+    background-color: #85DCB070;
+}
+
+.qoute {
+    font-size: 32px;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.laith {
+    align-self: flex-end;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
 }
