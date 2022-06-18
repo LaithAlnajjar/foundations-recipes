@@ -1,45 +1,36 @@
-* {
-    font-size: 24px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
+body {
+    margin: 0;
+    padding: 0;
 }
-h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    background-color: black;
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     color: white;
-}
-img {
-    display: block;
-    height: 720;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-h3 {
+    font-family: quicksand, roboto, sans-serif;
     font-size: 32px;
+    gap: 16px;
+    background-color: #85DCB0;
+    margin: 0px;
+    padding: 6px 16px;
 }
-.first {
-    background-color: black;
-    color: white;
+
+.icon {
+    height: 56px;
+    width: 56px;
 }
-.second {
-    background-color: white;
-    color:black;
+
+.extra {
+    margin-left: auto;
+    margin-right: 16px;
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 16px;
 }
-.third {
-    background: green;
-    color: white;
-}
-.description {
-    background-color: black;
-    color: white;
-}
-.ingredients {
-    background-color: white;
-    color: black;
-}
-.steps {
-    background: green;
-    color: white;
+
+.github {
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 16px;
 }
